@@ -1,1 +1,52 @@
-Hello World
+<script>
+  let email = "";
+
+  const onClick = () => {
+    console.log("Hello!");
+  };
+</script>
+
+<style>
+  .red-background {
+    background: red;
+  }
+</style>
+
+<body>
+  Hello World!
+
+  <a href="about.html">About</a>
+
+  <div class="red-background" style="text-align: right; padding-right: 10px">
+    Hello!
+  </div>
+
+  <div>
+    <div>
+      <div>asdf</div>
+    </div>
+  </div>
+
+  <span style="text-align: right">Span</span>
+
+  <button onclick="onClick()">console log</button>
+
+  <div style="margin: 10px; padding: 4px; border: 1px solid black">Test</div>
+
+  <div style="display: flex">
+    <button style="margin: 0 4px; background: red">button 1</button
+    ><button style="padding: 0 4px; background: blue">button 2</button>
+  </div>
+
+  <input placeholder="email" onchange="(e) => email = e.target.value" />
+  <input placeholder="email" value="email" />
+
+  <input placeholder="password" type="password" />
+  <button>Submit</button>
+
+  <input type="date" />
+
+  <input type="color" />
+
+  <img src="./barackube.png" />
+</body>
