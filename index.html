@@ -11,38 +11,44 @@
       }
       .text-column {
         max-width: var(--my_column_width);
+        text-align: left; /* Enforce left alignment */
       }
     </style>
   </head>
-  <body class="flex items-center justify-center min-h-screen">
+  <body class="flex min-h-screen">
     <main class="container mx-auto flex flex-col items-center p-6">
-      <div class="header text-4xl font-medium mb-6 text-center">Katelyn Lee</div>
+      <div class="my-title">Katelyn Lee</div>
 
       <div class="flex flex-col items-center md:flex-row md:items-start text-column">
         <img src="./me.png" width="200" height="250" class="mb-4 md:mb-0 md:mr-6" />
 
-        <div class="text-left">
+        <div>
+          <p class="subtitle">
+            PhD student in Mechanical Engineering at Columbia University
+          </p>
+    
           <p class="mb-2">
-            Hello! My name is Katelyn, and I am a second-year PhD student in Mechanical Engineering at Columbia advised by Matei Ciocarlie. I am interested in advancing rehabilitative and assistive robotics and developing novel sensing modalities to enhance human-robot interactions.
+            I'm a second-year PhD student in the  
+            <a href="https://roam.me.columbia.edu/" target="_blank" class="my-link">ROAM lab</a>
+             advised by 
+            <a href="https://www.me.columbia.edu/faculty/matei-ciocarlie" target="_blank" class="my-link">Matei Ciocarlie</a>. 
+            I am interested in advancing rehabilitative and assistive robotics and developing novel sensing modalities to enhance human-robot interactions.
           </p>
           <p class="mb-4">
             I received my BS in Bioengineering at Caltech in 2023 and attended Trinity School in NYC.
           </p>
+
+          <p class="mb-4">
+            <a href="./katelyn_lee_resume.pdf" class="my-resume" download>Resume</a> <br>
+            Email: k a t e l y n . l e e @ c o l u m b i a . e d u
+          </p>
         </div>
       </div>
 
-      <div class="my-4 text-column text-center">
-        <a href="./katelyn_lee_resume.pdf" class="resume-link" download>Resume</a>
-      </div>
-
-      <div class="my-4 text-column text-center">
-        Email: k a t e l y n . l e e @ c o l u m b i a . e d u
-      </div>
-
-      <section class="my-4 text-column text-left">
-        <h2 class="text-3xl font-medium mb-2">Publications + Posters</h2>
+      <section class="my-4 text-column">
+        <h2 class="my-subtitle">Publications + Posters</h2>
         <p class="text-gray-500 mb-4">* indicates equal contribution</p>
-        <ul class="list-none px-4">
+        <ul class="list-none">
           <li class="mb-4">
             <a href="./thumb-poster.pdf" class="publication-link">
               Fabric EMG Sensing for Robotic Orthosis Control
