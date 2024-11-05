@@ -1,0 +1,43 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.header {
+  font-family: 'Helvetica Neue', sans-serif;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+
+.publication-link {
+    text-decoration: none; /* Remove underline */
+    color: #303099; /* Default link color (blue) */
+    font-size: 1.25em; /* Increase font size (adjust as needed) */
+  }
+
+.publication-link:hover {
+    color: #30309961; /* Color on hover (orange-red) */
+  }
+
+.resume-link {
+    text-decoration: none; /* Remove underline */
+    color: #303099; /* Default link color (blue) */
+  }
+
+.resume-link:hover {
+    color: #30309961; /* Color on hover (orange-red) */
+  }
+
+
+.author-list {
+    margin: 5px 0 0 0; /* Space above the author list */
+    font-style: italic; /* Italicize the author names */
+    color: #666; /* Dark gray color for the text */
+  }
+
+.journal {
+    margin: 5px 0 0 0; /* Space above the author list */
+    font-style: italic; /* Italicize the author names */
+    color: #666; /* Dark gray color for the text */
+  }
