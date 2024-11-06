@@ -72,3 +72,12 @@ body {
     font-style: italic; /* Italicize the author names */
     color: #666; /* Dark gray color for the text */
   }
+
+  .paper-link {
+    margin: 5px 0 0 0; /* Space above the author list */
+    font-style: italic; /* Italicize the author names */
+    color: #666; /* Dark gray color for the text */
+  }
+  .paper-link:hover {
+    color: #c4c4c4; /* Color on hover (orange-red) */
+  }
