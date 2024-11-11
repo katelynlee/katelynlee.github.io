@@ -1,0 +1,83 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.header {
+  font-family: 'Helvetica Neue', sans-serif;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.my-title{
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0 0 10px 0; /* Space below name */
+  font-size: 2.3em;
+  font-weight: 400;
+  color: #22223f;
+}
+
+.my-subtitle{
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0 0 10px 0; /* Space below name */
+  font-size: 1.8em;
+  font-weight: 400;
+  color: #22223f;
+}
+
+.subtitle {
+  margin: 0 0 12px 0; /* Space below name */
+  color: #303099; /* Dark blue color for the text */
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+.publication-link {
+    text-decoration: none; /* Remove underline */
+    color: #303099; /* Default link color (blue) */
+    font-size: 1.25em; /* Increase font size (adjust as needed) */
+  }
+
+.publication-link:hover {
+    color: #30309961; /* Color on hover (orange-red) */
+  }
+
+.my-link {
+    text-decoration: none; /* Remove underline */
+    color: #303099; /* Default link color (blue) */
+  }
+
+.my-link:hover {
+    color: #30309961; /* Color on hover (orange-red) */
+  }
+
+.my-resume {
+    text-decoration: none; /* Remove underline */
+    color: #303099; /* Default link color (blue) */
+    font-weight: bold;
+  }
+
+.my-resume:hover {
+    color: #30309961; /* Color on hover (orange-red) */
+  }
+
+.author-list {
+    margin: 5px 0 0 0; /* Space above the author list */
+    font-style: italic; /* Italicize the author names */
+    color: #666; /* Dark gray color for the text */
+  }
+
+.journal {
+    margin: 5px 0 0 0; /* Space above the author list */
+    font-style: italic; /* Italicize the author names */
+    color: #666; /* Dark gray color for the text */
+  }
+
+  .paper-link {
+    margin: 5px 0 0 0; /* Space above the author list */
+    font-style: italic; /* Italicize the author names */
+    color: #666; /* Dark gray color for the text */
+  }
+  .paper-link:hover {
+    color: #c4c4c4; /* Color on hover (orange-red) */
+  }

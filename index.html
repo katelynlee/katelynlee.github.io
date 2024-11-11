@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      :root {
+        --my_column_width: 800px; 
+      }
+      .text-column {
+        max-width: var(--my_column_width);
+        text-align: left; /* Enforce left alignment */
+      }
+    </style>
+  </head>
+  <body class="flex min-h-screen">
+    <main class="container mx-auto flex flex-col items-center p-6">
+      <div class="my-title">Katelyn Lee</div>
+
+      <div class="flex flex-col items-center md:flex-row md:items-start text-column">
+        <img src="./me.png" width="200" height="250" class="mb-4 md:mb-0 md:mr-6" />
+
+        <div>
+          <p class="subtitle">
+            PhD student in Mechanical Engineering at Columbia University
+          </p>
+    
+          <p class="mb-2">
+            I'm a second-year PhD student in the  
+            <a href="https://roam.me.columbia.edu/" target="_blank" class="my-link">ROAM lab</a>
+             advised by 
+            <a href="https://www.me.columbia.edu/faculty/matei-ciocarlie" target="_blank" class="my-link">Matei Ciocarlie</a>. 
+            I am interested in advancing rehabilitative and assistive robotics and developing novel sensing modalities to enhance human-robot interactions.
+          </p>
+          <p class="mb-4">
+            I received my BS in Bioengineering at Caltech in 2023 and attended Trinity School in NYC.
+          </p>
+
+          <p class="mb-4">
+            <a href="./katelyn_lee_resume.pdf" class="my-resume" download>Resume</a> <br>
+            Email: k a t e l y n . l e e @ c o l u m b i a . e d u
+          </p>
+        </div>
+      </div>
+
+      <section class="text-column text-align: start;">
+        <h2 class="my-subtitle">Research</h2>
+        <ul class="list-none">
+          <li class="mb-4">
+            <p class="subtitle">
+              MyHand
+            </p>
+            <p>
+              As part of the MyHand team, we are developing a wearable orthosis device for stroke survivors to assist in hand opening. The device is an underactuated, tendon-driven robot that is controlled via forearm surface EMG signals for ipsilateral control. Currently, I am working on  surface EMG fabric sensors on the palm for improved intent inferral and designing finger splints to better support and assist finger extension. 
+            </p>
+            <p class="journal">
+              Relevant papers: 
+                <a href="doi.org/10.48550/arXiv.1802.06131" class="paper-link">Design and Development of Effective Transmission Mechanisms on a Tendon Driven Orthosis for Stroke Patients</a>, 
+                <a href="doi.org/10.48550/arXiv.2011.00034" class="paper-link">Adaptive Semi-Supervised Intent Inferral to Control a Powered Hand Orthosis for Stroke</a>
+            </p>
+          </li>
+          <li class="mb-4">
+            <p class="subtitle">
+              Edgeless Skin Actuation
+            </p>
+            <p>
+              In collaboration with the Abaci Lab at Columbia Medical school, we are developing an actuated finger to introduce creases in artifically grown skin.  
+            </p>
+            <p class="journal">
+              Relevant papers: <a href="doi.org/10.1126/sciadv.ade2514" class="paper-link">Engineering edgeless human skin with enhanced biomechanical properties</a>  
+            </p>
+          </li>
+        </ul>
+      </section>
+
+
+      <section class="my-4 text-column">
+        <h2 class="my-subtitle">Publications + Posters</h2>
+        <p class="text-gray-500 mb-4">* indicates equal contribution</p>
+        <ul class="list-none">
+          <li class="mb-4">
+            <a href="./thumb-poster.pdf" class="publication-link">
+              Fabric EMG Sensing for Robotic Orthosis Control
+            </a>
+            <p class="author-list">
+              <b>Katelyn Lee</b>, Lisa Maria DiSalvo, Iris Xu, Qijia Shao, Ava Chen, Xia Zhou and Matei Ciocarlie
+            </p>
+            <p class="journal">
+              Biorob 2024 Workshop: Building Responsive Body-Machine Interfaces With Biosignals and Robotic Exoskeletons
+            </p>
+          </li>
+
+          <li class="mb-4">
+            <a href="https://arxiv.org/abs/2402.08019" class="publication-link">
+              Volitional Control of the Paretic Hand Post-Stroke Increases Finger Stiffness and Resistance to Robot-Assisted Movement
+            </a>
+            <p class="author-list">
+              Ava Chen<sup>*</sup>, <b>Katelyn Lee<sup>*</sup></b>, Lauren Winterbottom, Jingxi Xu, Connor Lee, Grace Munger, Alexandra Deli-Ivanov, Dawn M. Nilsen, Joel Stein, and Matei Ciocarlie
+            </p>
+            <p class="journal">
+              IEEE 2024 RAS/EMBS Intl. Conference on Biomedical Robotics and Biomechatronics (BioRob) 
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <div class="my-4 text-column text-center">Last updated: 11/05/2024</div>
+    </main>
+  </body>
+</html>
